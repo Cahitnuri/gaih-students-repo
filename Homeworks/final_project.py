@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1BFhNIeqWj38IilsHOtQIZGaFunAjnFgf
 """
 
-score = 0
+ score = 0
 score = int(score)
 
 name = input("What is your name?")
@@ -194,4 +194,8 @@ else:
     score = score + 10
 
 print("Your total score is " + str(score) + " out of 100")
-print("Thank you for playing {}, GoodBye!".format(name))
+
+if (score >= 50):
+    print("{} You Win!")
+else:
+    print("Sorry!, You Lose {} ")
