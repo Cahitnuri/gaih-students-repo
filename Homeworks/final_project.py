@@ -196,6 +196,6 @@ else:
 print("Your total score is " + str(score) + " out of 100")
 
 if (score >= 50):
-    print("{} You Win!")
+    print("YOU WIN!!!")
 else:
-    print("Sorry!, You Lose {} ")
+    print("Sorry!, You Lose")
